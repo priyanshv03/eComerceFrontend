@@ -1,21 +1,7 @@
 import React from 'react'
 import "./Footer.css"
 
-// let Card =(props)=>{
-//     return (<div className="card">
-//         <div className='img-left'>
-//      <img src="https://blinkit.com/images/home/express-delivery-icon-93fce76.png" alt="" />
-//         </div>
-//      <div className="card_info">
-//         <div className="details">
-//             <span className="card_title_footer">{props.Title}</span>
-//             <span className='Adjective '>{props.Adjective}</span>
-//          </div>
-//      </div>
-//  </div>
-//  )
-//  }
-
+import Footer2 from './Footer2'
 export default function 
 () {
     return (<>
@@ -31,19 +17,7 @@ Order thousands of products at just a tap: milk, eggs, bread, cooking oil, ghee,
  <div className="size">Available in following citiesh</div>
             The delivery service is operational in Ahmedabad, Bengaluru, Chandigarh, Chennai, Delhi, Faridabad, Gurgaon, Haridwar, HR-NCR, Hyderabad, Jaipur, Jalandhar, Kanpur, Kolkata, Lucknow, Ludhiana, Meerut, Mohali, Mumbai, Panchkula, Pune, UP-NCR, Vadodara, Zirakpur
             
-            <div className='main-border'>
-                <div className="item1">
-                    <div className='imgs'>
-                        <img className='imgs' src="https://blinkit.com/images/home/express-delivery-icon-93fce76.png" alt="" />
-                        </div> 
-                    <div className='texts'>
-                       <h6>10 minute grocery now</h6><br />
-                       Get your order delivered to your doorstep at the earliest from dark stores near you.                     
-                        
-                  </div>
-                </div>
-
-            </div>
+           <Footer2/>
         </div>
       
 
